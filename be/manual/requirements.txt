@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sqlalchemy>=1.4
+alembic
+psycopg2-binary
+pydantic
+python-dotenv
+httpx
+python-telegram-bot==23.14  # or use direct HTTP to Telegram API
+apscheduler
+cryptography
+requests
