@@ -6,7 +6,7 @@ psycopg2-binary
 pydantic
 python-dotenv
 httpx
-python-telegram-bot==23.14  # or use direct HTTP to Telegram API
+python-telegram-bot  # or use direct HTTP to Telegram API
 apscheduler
 cryptography
 requests

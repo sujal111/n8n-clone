@@ -41,7 +41,7 @@ class Node(Base):
 class Run(Base):
     __tablename__ = "runs"
     id = Column(Integer, primary_key=True)
-    workflow_id = Column(Integer, ForeignKey("workflows.id"))
+    workflow_id = Column(Integer, F oreignKey("workflows.id"))
     started_at = Column(DateTime, default=datetime.utcnow)
     finished_at = Column(DateTime, nullable=True)
     status = Column(String, default="running")  # running, success, failed
