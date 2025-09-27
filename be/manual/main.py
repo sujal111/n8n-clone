@@ -22,3 +22,14 @@ class CredentialIn(BaseModel):
 
 
 
+class Workflow()
+
+
+
+class NodeIn(BaseModel):
+    workflow_id: str 
+    name: str 
+    type: str 
+    subtype: str 
+    config: dict={}
+    
