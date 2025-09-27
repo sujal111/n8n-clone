@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+httpx
+sqlmodel
+APScheduler
+pydantic
+python-dotenv
+requests
+openai
+anthropic-sdk
